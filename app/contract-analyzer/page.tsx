@@ -1,3 +1,9 @@
+import Link from "next/link";
+<div className="flex gap-6 mb-10">
+  <Link href="/">Home</Link>
+  <Link href="/dashboard">Dashboard</Link>
+  <Link href="/contract-analyzer">Analyzer</Link>
+</div>
 "use client";
 
 import { useState } from "react";
